@@ -8,7 +8,7 @@ void getBit(string str, int no){
 
 	int i=0;
 	while(no){
-		if(no&1) str[i]=toupper(str.at(i));
+		if(no&1) str[i]=toupper(str[i]);
 		i++;
 		no>>=1;
 	}
