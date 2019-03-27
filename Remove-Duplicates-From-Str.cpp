@@ -1,4 +1,4 @@
-// Remove Duplicates from String in O(1) Space
+// Remove Duplicates from String in O(n) time and O(1) Space
 // https://www.geeksforgeeks.org/remove-duplicates-from-a-string-in-o1-extra-space/
 
 #include<bits/stdc++.h>
