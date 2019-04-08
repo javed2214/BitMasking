@@ -1,4 +1,5 @@
 // ----- Author: Javed Ansari -----
+// https://www.codechef.com/problems/KOL16B
 
 #include<bits/stdc++.h>
 #include<cstring>
