@@ -4,6 +4,8 @@
     Date   : 14 May 2019    
 -----------------------------*/
 
+// https://www.codechef.com/problems/JAIN
+
 #include<bits/stdc++.h>
 #include<cstring>
 #include<stdio.h>
