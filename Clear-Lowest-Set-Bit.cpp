@@ -1,4 +1,4 @@
-// Clears Least Significant Bit
+// Clear Least Significant Bit
 // 5->101 => 4->100
 // 24->11000 => 16->10000
 
