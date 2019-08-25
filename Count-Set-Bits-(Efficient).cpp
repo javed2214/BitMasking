@@ -1,23 +1,23 @@
-// Program to Count Set Bits Fast (Efficient Method)
+// Program to Count of Set Bits of a Given Number
+// Brian Kernighan’s Algorithm
+// Optimized Algorithm
+// TC: O(No of Set Bits)
 
 #include<bits/stdc++.h>
 using namespace std;
 
-int countBits(int n){
-
-	int count=0;		// TC :- O(No of Set Bits)
-	while(n){
-		count++;
-		n=n&(n-1);
-	}
-	return count;
-}
-
 int main(){
 
-	int n=13;
+	int n = 9;
+	int c = 0;
 
-	cout<<countBits(n);
+	while(n){
+
+		n = n & (n-1);
+		c++;
+	}
+
+	cout<<c;
 
 	return 0;
 }
